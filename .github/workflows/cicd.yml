@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: executing remote script
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         uses: appleboy/ssh-action@master
         env:
           ENV_PATH: ${{ secrets.ENV_PATH }}
