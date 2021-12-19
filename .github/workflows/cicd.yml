@@ -22,7 +22,7 @@ jobs:
           envs: ENV_PATH
           script: |
             cd $ENV_PATH
-            git clone git@github.com:Senedea/portfolionetlify
+            git clone https://github.com/Senedea/portfolionetlify
             cd portfolionetlify
             git checkout master
             git pull           
